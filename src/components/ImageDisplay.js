@@ -24,7 +24,7 @@ console.log(storeData)
   return (
     <div className="wrapper">
       <div className="search-box">
-        <input type="text" className="input" onChange={(e) => {
+        <input type="text" className="input" placeholder="Search images" onChange={(e) => {
           e.preventDefault()
           setIsSearched(true)
           setSearch(e.target.value)
